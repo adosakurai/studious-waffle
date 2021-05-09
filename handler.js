@@ -82,7 +82,7 @@ const addBookHandler = (request, h) => {
         },
       };
     }
-    if (finished !== undefined) {
+    if (finished) {
       return {
         status: 'success',
         data: {
